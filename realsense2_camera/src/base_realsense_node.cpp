@@ -1891,7 +1891,7 @@ void BaseRealSenseNode::setupStreams()
             if (sensor.is<rs2::depth_sensor>())
             {
                 _depth_scale_meters = sensor.as<rs2::depth_sensor>().get_depth_scale();
-                sensor.as<rs2::depth_sensor>().set_option(RS2_OPTION_LASER_POWER, 0.f);
+                // sensor.as<rs2::depth_sensor>().set_option(RS2_OPTION_LASER_POWER, 0.f);
             }
         }
     }
