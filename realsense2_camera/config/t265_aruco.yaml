@@ -1,0 +1,18 @@
+aruco:
+  camera:
+    ros__parameters:
+      serial_no: ''
+      fisheye1:
+        enabled: true
+        resolution: [848,800]
+        fps: 30
+      fisheye2:
+        enabled: false
+        resolution: [848,800]
+        fps: 30
+      accel0:
+        enabled: false
+      gyro0:
+        enabled: false
+      pose0:
+        enabled: false
