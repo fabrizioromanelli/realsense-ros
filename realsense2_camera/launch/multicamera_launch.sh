@@ -1,0 +1,1 @@
+ros2 launch realsense2_camera rs_multi_camera_launch.py camera_name1:=vslam device_type1:=d435i enable_color1:=false enable_infra11:=true enable_sync1:=true align_depth1:=true depth_fps1:=30.0 depth_height1:=480 depth_width1:=640 infra_fps1:=30.0 infra_height1:=480 infra_width1:=640 camera_name2:=aruco device_type:=t265 enable_fisheye21:=false
